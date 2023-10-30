@@ -1,0 +1,23 @@
+.titulo {color:$colorprincipalrosa;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-size: 5rem;
+}
+
+
+
+.fondo-hax {background-image: url(../images/Fondo.png);
+ background-repeat: no-repeat
+ ; background-size: cover; background-position: fixed;
+ }
+
+ .titulo-index { height: 90vh;
+  
+}
+.titulo-index-texto {  font-family:'Kay Pho Du', serif;
+    font-weight: bold 
+    ;font-size: 6rem; color: $colorprincipalrosa;
+    background-color: black
+    ; border-radius: 10px 100px / 120px; padding-left: 1rem; padding-right: 1rem;}
+
+.texto3 { font-size: 1rem; color: $colorprincipalrosa; font-weight: bold;}
+.texto4 { font-size: 25px; font-family: 'Vast Shadow', serif; color: $colorprincipalrosa}
