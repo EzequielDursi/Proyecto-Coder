@@ -1,16 +1,19 @@
 .titulo {color:$colorprincipalrosa;
     font-family: 'Alumni Sans Collegiate One', sans-serif;
 font-size: 5rem;
+text-align: center;
 }
 
 
 
 .fondo-hax {background-image: url(../images/Fondo.png);
  background-repeat: no-repeat
- ; background-size: cover; background-position: fixed;
+ ; background-size: cover; background-position: center;
+ background-attachment: fixed;
  }
 
  .titulo-index { height: 90vh; margin-bottom: 0.3rem; padding-bottom: 1rem;
+    text-align: center;
   
 }
 .titulo-index-texto {  font-family:'Kay Pho Du', serif;

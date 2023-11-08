@@ -12,10 +12,11 @@
     div h4 {color: red ; font-size: 1rem;}
     
     
-    .jugadores{ display: flex;
+    .jugadores { display: flex ;
        padding: 1rem;
         gap:1rem;
         justify-content: space-between;
+
     }
     .imagen-index {
         
@@ -40,6 +41,7 @@
         width: 800px;
         height: 400px;
         margin:auto;
+        gap:1rem;
         
        
     

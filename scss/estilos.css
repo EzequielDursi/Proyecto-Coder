@@ -61,6 +61,7 @@ div h4 {
   width: 800px;
   height: 400px;
   margin: auto;
+  gap: 1rem;
   align-items: center;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -88,19 +89,22 @@ div h4 {
   color: #db5a7e;
   font-family: "Alumni Sans Collegiate One", sans-serif;
   font-size: 5rem;
+  text-align: center;
 }
 
 .fondo-hax {
   background-image: url(../images/Fondo.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: fixed;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .titulo-index {
   height: 90vh;
   margin-bottom: 0.3rem;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 .titulo-index-texto {
@@ -142,6 +146,9 @@ div h4 {
 
 .animacioncreadores {
   transition: 0.5s;
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .animacioncreadores:hover {
   transform: scale(1.1);
@@ -151,6 +158,9 @@ div h4 {
   width: 100px;
   height: 100px;
   animation: latido 2s infinite;
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @keyframes latido {
@@ -216,7 +226,7 @@ div h4 {
   line-height: 40px;
   border-radius: 50%;
   color: #ffffff;
-  transition: all 0.5 ease;
+  transition: all 0.5s ease;
 }
 
 .social-links2 a {
@@ -227,5 +237,5 @@ div h4 {
   line-height: 30px;
   border-radius: 50%;
   color: rgb(0, 68, 255);
-  transition: all 0.5 ease;
+  transition: all 0.5s ease;
 }/*# sourceMappingURL=estilos.css.map */

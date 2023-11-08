@@ -17,13 +17,20 @@
 .animacioncreadores {
     transition:0.5s;
 
-    &:hover {transform: scale(1.1)}
+    &:hover {transform: scale(1.1)} 
+    
+    ; aspect-ratio:1; object-fit: cover;
+    
 }
     
 .animacionicon {
     width: 100px;
     height: 100px;
     animation: latido 2s infinite;
+    aspect-ratio: 1;
+    object-fit: cover;
+
+
      
 
 }
