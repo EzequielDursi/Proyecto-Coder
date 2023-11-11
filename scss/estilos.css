@@ -239,4 +239,32 @@ div h4 {
   border-radius: 50%;
   color: rgb(0, 68, 255);
   transition: all 0.5s ease;
-}/*# sourceMappingURL=estilos.css.map */
+}
+@media (max-width: 500px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer {
+    margin-top: 125rem;
+  
+  
+  .footer-row {
+    text-align: center;
+  }
+  
+  .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+  } 
+    }
+
+  .jugadores {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+/*# sourceMappingURL=estilos.css.map */

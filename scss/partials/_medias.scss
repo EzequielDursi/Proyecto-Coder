@@ -1,15 +1,25 @@
 @media (max-width: 500px) {
-    .contenedor {
-      display: flex;
-      flex-direction: column;
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer {
+    margin-top: 125rem;
+  
+  
+  .footer-row {
+    text-align: center;
+  }
+  
+  .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+  } 
     }
-    .footer {
-      margin-top: 125rem;
-    }
-    .footer-row {
-      text-align: center;
-    }
-    .footer-links {
-      width: 100%;
-      margin-bottom: 30px;
-    } }
+
+  .jugadores {
+    display: flex;
+    flex-direction: column;
+  }
+}
